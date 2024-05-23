@@ -1,0 +1,58 @@
+@import "./header";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continer{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+%button__template{
+    padding: 14px 28px;
+    background-color: #13AB4E;
+    color: white;
+    font-family: "poppins";
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    &:hover{
+        background-color: #044d20;
+
+    }
+}
+
+
+
+@media screen and (max-width:1200px) {
+    .continer{
+        max-width: 960px;
+
+    }
+}
+
+@media screen and (max-width:992px) {
+    .continer{
+        max-width: 720px;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .continer{
+        max-width: 540px;
+
+    }
+}
+
+
+
