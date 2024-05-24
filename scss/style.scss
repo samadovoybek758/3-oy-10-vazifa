@@ -1,9 +1,12 @@
+@import "./hero";
 @import "./header";
+@import "./KFS";
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "poppins";
 }
 .continer{
     max-width: 1170px;

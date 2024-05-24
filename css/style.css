@@ -1,3 +1,28 @@
+.hero {
+  background-image: url("../images/background-header.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+.hero .hero__continer {
+  display: flex;
+  align-items: center;
+}
+.hero .hero__continer h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  color: #000000;
+  max-width: 570px;
+  margin-bottom: 16px;
+}
+.hero .hero__continer p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #333333;
+  margin-bottom: 32px;
+}
+
 .tag-chiziq {
   width: 100%;
   height: 1px;
@@ -100,10 +125,68 @@
     display: block;
   }
 }
+
+.hero__buttons{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.hero__buttons button{
+  padding: 14px 28px;
+  background-color: #13AB4E;
+  color: white;
+  font-family: "poppins";
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.hero__free{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.hero__free span{
+  font-size: 16px;
+  font-weight: 500;
+  color: #13AB4E;
+}
+
+@media screen and (max-width:540px){
+
+  .hero__continer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero__continer h1{
+    text-align: center;
+  }
+  .hero__continer p{
+    text-align: center;
+  }
+  .hero__buttons{
+    text-align: center;
+  }
+  .hero__contiener-img{
+    width: 530px;
+    ;
+  }
+  
+
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "poppins";
 }
 
 .continer {
@@ -126,6 +209,45 @@
 }
 .header__continer .header__continer-2 button:hover {
   background-color: #044d20;
+}
+
+.kfs__continer{
+  max-width: 1042px;
+}
+.kfs__continer h4{
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #0D7D38;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.kfs__img{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.kfs__img a:hover{
+  color: #0D7D38;
+}
+.kfs__img-1,
+.kfs__img-2{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+@media screen and(max-width:540px) {
+    .kfs__img{
+      display: flex;
+      flex-direction: column;
+      gap: 17px;
+    }
+    .kfs__img-1,
+    .kfs__img-2{
+      justify-content: space-between;
+    }
+  
 }
 
 @media screen and (max-width: 1200px) {
