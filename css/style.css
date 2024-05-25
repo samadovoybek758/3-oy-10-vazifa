@@ -26,7 +26,7 @@
 .tag-chiziq {
   width: 100%;
   height: 1px;
-  background-color: #DEDEDE;
+  background-color: #dedede;
 }
 
 .header__continer {
@@ -126,15 +126,15 @@
   }
 }
 
-.hero__buttons{
+.hero__buttons {
   display: flex;
   align-items: center;
   gap: 24px;
 }
 
-.hero__buttons button{
+.hero__buttons button {
   padding: 14px 28px;
-  background-color: #13AB4E;
+  background-color: #13ab4e;
   color: white;
   font-family: "poppins";
   border-radius: 4px;
@@ -145,42 +145,37 @@
   transition: all 0.5s;
 }
 
-.hero__free{
+.hero__free {
   display: flex;
   align-items: center;
   gap: 8px;
 }
-.hero__free span{
+.hero__free span {
   font-size: 16px;
   font-weight: 500;
-  color: #13AB4E;
+  color: #13ab4e;
 }
 
-@media screen and (max-width:540px){
-
+@media screen and (max-width: 540px) {
   .hero__continer {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .hero__continer h1{
+  .hero__continer h1 {
+    text-align: center;
+    font-size: 22px;
+  }
+  .hero__continer p {
     text-align: center;
   }
-  .hero__continer p{
+  .hero__buttons {
     text-align: center;
   }
-  .hero__buttons{
-    text-align: center;
-  }
-  .hero__contiener-img{
+  .hero__contiener-img {
     width: 530px;
-    ;
-  }
-  
-
+  }}
 }
-
-
 
 * {
   margin: 0;
@@ -197,7 +192,7 @@
 
 .header__continer .header__continer-2 button {
   padding: 14px 28px;
-  background-color: #13AB4E;
+  background-color: #13ab4e;
   color: white;
   font-family: "poppins";
   border-radius: 4px;
@@ -211,43 +206,41 @@
   background-color: #044d20;
 }
 
-.kfs__continer{
+.kfs__continer {
   max-width: 1042px;
 }
-.kfs__continer h4{
+.kfs__continer h4 {
   font-size: 16px;
   font-weight: 400;
   text-align: center;
-  color: #0D7D38;
+  color: #0d7d38;
   margin-top: 24px;
   margin-bottom: 32px;
 }
 
-.kfs__img{
+.kfs__img {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
-.kfs__img a:hover{
-  color: #0D7D38;
+.kfs__img a:hover {
+  color: #0d7d38;
 }
 .kfs__img-1,
-.kfs__img-2{
+.kfs__img-2 {
   display: flex;
   justify-content: space-between;
   gap: 50px;
 }
 @media screen and(max-width:540px) {
-    .kfs__img{
-      display: flex;
-      flex-direction: column;
-      gap: 17px;
-    }
-    .kfs__img-1,
-    .kfs__img-2{
-      justify-content: space-between;
-    }
-  
+  .kfs__img {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+  }
+  .kfs__img-1,
+  .kfs__img-2 {
+    justify-content: space-between;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -264,4 +257,4 @@
   .continer {
     max-width: 540px;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
